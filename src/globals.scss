@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.todoBtn {
+		@apply w-full flex items-center gap-1 text-start p-2 overflow-hidden hover:bg-slate-100 text-gray-400;
+	}
+	.modal-btn {
+		@apply flex items-center font-semibold px-3 py-1 rounded-md hover:bg-opacity-70 transition;
+	}
+	.label {
+		@apply block mb-2 text-lg font-semibold text-gray-600;
+	}
+}
